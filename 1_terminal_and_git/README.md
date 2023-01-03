@@ -22,7 +22,7 @@ This will create a copy of the Github course materials in the folder to which yo
 
 ## Task 3: Submit screenshots on Canvas
 
-Put the two screenshots from Tasks 2 in a single PDF file and submit on Canvas. 
+Put the screenshot from Tasks 2 in a single PDF file and submit on Canvas. 
 
 ## Questions? 
 
