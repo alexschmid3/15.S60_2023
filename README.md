@@ -7,7 +7,7 @@ This course is a multi-session workshop on software tools for informing decision
 
 The course comprises 8 self-contained modules. Each module consists of a 3-hour interactive workshop where participants learn a specific software tool and a set of exciting concepts.
 
-The 8 modules:
+**The 8 modules**:
 
 - Session 1: Terminal, Git, and Project Management
 - Session 2: Introduction to Machine Learning with Python
