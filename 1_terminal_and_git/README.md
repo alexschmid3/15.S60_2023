@@ -18,7 +18,9 @@ Open terminal (macOS/Linux) or Git Bash (Windows). "Clone" the Github for this c
 
 `git clone https://github.com/alexschmid3/15.S60_2023.git`
 
-This will create a copy of the Github course materials in the folder to which you cloned. **Take a screenshot of your output after successfully cloning.**
+This will create a copy of the Github course materials in the folder to which you cloned (the folder will be your home directory if you simply typed the clone command above). If you'd like to see the result, you can navgiate to that folder and see that you now have a new folder called "15.S60_2023". Throughout the course, we will update this Github with the materials from each workshop and you will be able to make a copy of them on your computer with one command in Terminal/Git Bash. 
+
+**Take a screenshot of your terminal/Git Bash output after successfully cloning.**
 
 ## Task 3: Submit screenshots on Canvas
 
