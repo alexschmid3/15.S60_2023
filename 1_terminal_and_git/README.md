@@ -2,7 +2,7 @@
 
 Before the first class, please complete the following tasks. 
 
-Completing the pre-assignment will ensure you have all of the accounts and software needed to follow along with the first session that covers the basics of Terminal, Git, Github, collaboration, and project management.
+Completing the pre-assignment will ensure you have all of the accounts and software needed to follow along with the first session that covers the basics of Terminal, Git, Github, and project management.
 
 ## Task 1: Make a Github account
 
