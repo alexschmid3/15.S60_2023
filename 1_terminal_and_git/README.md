@@ -16,7 +16,7 @@ For Windows users, the download will include Git Bash. Git Bash is a package tha
 
 Open terminal (macOS/Linux) or Git Bash (Windows). "Clone" the Github for this class by entering the following command (we will talk about this more in the session):
 
-`git clone https://github.com/aschmid3/15.S60_2023.git`
+`git clone https://github.com/alexschmid3/15.S60_2023.git`
 
 This will create a copy of the Github course materials in the folder to which you cloned. **Take a screenshot of your output after successfully cloning.**
 
