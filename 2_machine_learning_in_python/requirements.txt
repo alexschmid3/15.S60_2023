@@ -1,0 +1,11 @@
+pandas
+xgboost
+lightgbm
+matplotlib
+shap
+numpy
+missingno
+seaborn
+lazypredict
+scikit_learn
+tpot
