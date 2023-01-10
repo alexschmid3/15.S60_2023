@@ -29,3 +29,7 @@ Put the screenshot from Tasks 2 in a single PDF file and submit on Canvas.
 ## Questions? 
 
 Email Alex at aschmid@mit.edu.
+
+## Connecting Git to Github (not part of pre-assignment, though it should have been, sorry!)
+
+To use terminal and git to push changes to Github, you need to tell git/terminal who you are and authenticate your Github credentials. We do that through an SSH (secure shell) key. Follow instructions [https://docs.github.com/en/authentication/connecting-to-github-with-ssh](here) to generate an SSH key and add the key to your Github account.
