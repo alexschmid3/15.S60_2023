@@ -1,0 +1,15 @@
+# Preassignment 3
+
+As preassignment for session 3, we'll make sure we can open and execute a notebook in Google Colab.
+
+Google Colab is a user interface to execute Python code. It is extremely similar to Jupyter Notebook, except that it is online and runs on GPUs, for free!
+
+Please go to [this link](https://colab.research.google.com/drive/1rCwyWnMYuy8gZWRpSSR81cblFWPyZgXr?usp=sharing) link and make a copy of this repository to your Google drive. For that, please follow the instructions carefully.
+
+Then check you can execute cells as instructed, and upload a screenshot to Canvas of the requested cells.
+
+See you on Tuesday!
+
+### Questions?
+
+Please email me (Angelos)  at angkoul@mit.edu for any questions about this session or the preassignment. 
