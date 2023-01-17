@@ -12,4 +12,9 @@ See you on Tuesday!
 
 ### Questions?
 
-Please email me (Angelos)  at angkoul@mit.edu for any questions about this session or the preassignment. 
+Please email me (Angelos)  at angkoul@mit.edu for any questions about this session or the preassignment.
+
+### Colab Notebooks
+
+1. [Preassignment](https://colab.research.google.com/drive/1rCwyWnMYuy8gZWRpSSR81cblFWPyZgXr?usp=sharing)
+2. [MNIST](https://colab.research.google.com/drive/14FM27AfjOLKXOu4YLLY_FmPOwsL8n2XH?usp=sharing)
