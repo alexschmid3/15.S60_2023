@@ -9,7 +9,7 @@ This session is divided in 4 parts:
 For part 2, we will use a Google Colab notebook. Follow this [link](https://colab.research.google.com/drive/1oQo5IsO4C6xBb6EFoaoinmYqvj1pg62I?usp=sharing) to open the notebook. After that, please save a copy in your own drive so you can follow the class and make modifications.
 We suggest to run a few cells before hand to make sure the notebook compiles on your browser.
 
-You can find the .pdf of the slides [here](https://www.dropbox.com/s/r9wr38xnrl0cfj8/Advanced%20Deep%20Learning%202022%20Public%20Version.pdf?dl=0).
+You can find the .pdf of the slides [here](https://drive.google.com/file/d/1uAYgGmo1vLt09ypvdKSVACgytcaE2JW1/view?usp=sharing).
 
 
 ### Lucky you! 
