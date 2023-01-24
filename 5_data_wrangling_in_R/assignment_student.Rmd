@@ -1,0 +1,282 @@
+---
+title: 'Assignment: Data Wrangling and Visualization in R'
+author: "You!"
+date: "1/24/2023"
+output: pdf_document
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+library(tidyverse)
+library(lubridate)
+library(broom)
+library(leaflet)
+```
+
+# Setup
+
+You are working with an RMarkdown document, which is a file format that can mix 
+markdown text with R code chunks. You will complete this assignment by reading 
+through the prompts and adding code to the R code chunks where prompted. You will 
+then generate a PDF file from your script by clicking the "Knit" button near the 
+top center of the page (or by using the Ctrl+Shift+K/Command+Shift+K keyboard 
+shortcut), and you will upload the PDF file to the Canvas assignment. Note that 
+you will not be able to Knit the document until you complete it because the later 
+dataframes rely on columns that you will generate in earlier answers.
+
+**To begin, set the working directory to source file location: Session** 
+$\rightarrow$ **Set Working Directory** $\rightarrow$ **To Source File Location.**
+
+# Preliminaries
+
+The assignment will pick up where we left off in the case study at the end of 
+class. In order to extend this case study, you will read in the `listings` and 
+`prices_modeled` dataframes using the commands in the "code chunk" below. To run 
+all of the code in a particular chunk, you can place the cursor in the code chunk 
+and use the shortcut Shift+Ctrl+Enter/Shift+Command+Return, or you can use the 
+"Run Current Chunk" button under the Run menu in the right side of the toolbar 
+under the R document tabs.
+
+```{r, results=FALSE, message=FALSE}
+# Clear the environment
+rm(list = ls())
+
+# Read in the listings and the prices_modeled dataframes
+listings <- read_csv('data/assignment/listings.csv')
+prices_modeled <- read_csv('data/assignment/prices_modeled.csv')
+```
+
+After running the chunk above, you should have the `listings` and `prices_modeled` 
+dataframes in your global environment. Our goal over the next three questions 
+will be to isolate the April spike signal that we observed in class. We've already 
+removed the smoothed trend using our LOESS models, so now let's tackle the periodic 
+(day of week) variation.
+
+# QUESTION 1
+
+(a)   Append a column for the mean periodic component of variation to the 
+`prices_modeled` dataframe and call this column `periodic`. 
+(b)   Calculate this periodic component by taking the mean residual price 
+(residual after removing the LOESS trend) across all listings for each weekday. 
+For each day of the week, the `periodic` column should have the same value for 
+every listing. (c)   Add a column for the remainder value, which we will define as 
+`price_per - trend - periodic`, and call this column `remainder`. 
+(d)   As the last line in the code chunk, print out the top 5 rows of the mutated 
+`prices_modeled` dataframe.
+
+## Hints:
+
+-   Check out the `wday()` function in `lubridate`.
+-   Think about combining a `tidyverse` verb with a grouped dataframe.
+-   Don't forget to ungroup!
+
+## ANSWER:
+
+```{r}
+# Put your answer to question 1 in this code chunk!
+# You can write and test your R code in this shaded chunk just as you would in an R script
+
+```
+
+# QUESTION 2:
+
+Now we can visualize the trends. We have four price columns: `price_per`, `trend`, 
+`periodic`, and `remainder`. 
+
+Plot all of these as facets on the same visualization, using only the first 3000 
+observations in the dataset. Each facet should be a line plot with a line for 
+each `listing_id`.
+
+## Hints:
+
+-   Four different price columns doesn't sound `tidy`. Let's consider the type 
+of price (`price_per`, `trend`, etc) as a variable, and the value as another 
+variable, and tidy up our dataframe to reflect this choice.
+-   You only need these six columns in this question: `listing_id`, `date`, 
+`price_per`, `trend`, `periodic`, `remainder`.
+-   Check out the `scales` argument of `facet_grid` or `facet_wrap` to make the 
+plot more readable.
+
+## ANSWER:
+
+```{r}
+# Answer question 2 in this chunk
+
+```
+
+Now we can take a look at the overall trend across listings in the part of the 
+signal we've failed to capture.
+
+```{r}
+prices_modeled %>% 
+  group_by(date) %>% 
+  summarise(mean_remainder = mean(remainder, na.rm = T)) %>% 
+  ggplot() + 
+  aes(x = date, y = mean_remainder) + 
+  geom_line() + 
+  theme_minimal() + 
+  labs(title = "Remainder of the mean listing price signal",
+       y = 'Mean remainder',
+       x = NULL)
+```
+
+# QUESTION 3
+
+Finally, let's dive a bit deeper and use k-means clustering to group listings by 
+the magnitude of their April spikes. Our hypothesis is that there are two sets of 
+listings: one that is highly impacted by the April spike, and another that is not
+impacted much. Let's look for evidence for or against this hypothesis.
+
+We'll start by considering only the prices in April. No need to change this code 
+chunk, but you'll need to use the resulting dataframe.
+
+```{r}
+april_prices <- prices_modeled %>% 
+  filter(month(date, label = T) == 'Apr') %>% 
+  select(listing_id, date, remainder)
+```
+
+We need to construct a matrix of data to use for k-means. Again, no need to alter 
+the code chunk here, but feel free to take a look at the format of the resulting 
+dataframe. Note that we are including only listings that have data for the entirety 
+of April. `complete()` fills in any missing `NA` values, and then we use a 
+`group_by() %>% filter()` to exclude listings that have any `NA`s. This matrix 
+has a variable for each date and the values are the remainders.
+
+```{r}
+prices_to_cluster <- april_prices %>% 
+  complete(listing_id, date) %>% 
+  group_by(listing_id) %>% 
+  filter(sum(is.na(remainder)) == 0) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = date, 
+              values_from = remainder)
+
+# Put this in matrix form, removing the listing identifier
+prices_matrix <- prices_to_cluster %>% 
+  select(-listing_id) %>% 
+  as.matrix()
+```
+
+Our final setup item constructs a k-means function that takes `k` as an argument,
+and initializes a dataframe holding potential `k` values between 1 and 10. We are
+going to fit 10 k-means model for each value of `k` and take the mean of the fit 
+statistics over these 10 models, which is why there are 10 rows for each value of 
+`k`. Your job will be to add model data to this dataframe, one model for each row, 
+so we can examine the fit for each potential choice of `k`.
+
+```{r}
+set.seed(1234)
+my_kmeans <- function(k){
+  kmeans(prices_matrix, k)
+}
+cluster_models <- tibble(k = rep(1:10, 10)) 
+```
+
+## QUESTION 3a:
+
+Create a kclust column called `kclust` in the `cluster_models` dataframe that holds 
+a k-means object for each row in the `cluster_models` dataframe.
+
+### ANSWER:
+
+```{r}
+# Answer question 3a in this chunk.
+
+```
+
+## QUESTION 3b
+
+How do we know how many clusters to use? We can extract a summary of each model 
+using `broom::glance()`. Here's how that looks for a single model:
+
+```{r}
+cluster_models$kclust[[1]] %>% glance()
+```
+
+Now, extract the model summary using `glance` for each model, and then convert the
+result into a "well-behaved" data frame called `cluster_performance` with no nesting.
+
+### ANSWER:
+
+```{r}
+# Answer question 3b in this chunk.
+
+```
+
+## QUESTION 3c:
+
+Compute the mean `tot.withinss` for each value of `k` and plot the results, with 
+`k` on the x-axis and the mean `tot.withinss` on the y-axis. What value of `k` 
+should we use? You can put your thoughts into a comment in the code chunk below, 
+after your code for the plot.
+
+### ANSWER:
+
+```{r}
+# Answer question 3c in this chunk.
+
+```
+
+We really only need one clustering, so let's extract the first one with our chosen 
+value of `k = 2`.
+
+```{r}
+chosen_model <- cluster_models$kclust[cluster_models$k == 2][[1]]
+```
+
+Let's inspect the clustered series. To do this, we need to add the predictions to 
+`prices_for_clustering` and use `pivot_longer()`:
+
+```{r}
+prices_clustered <- prices_to_cluster %>% 
+  mutate(cluster = chosen_model$cluster) %>% 
+  pivot_longer(cols = -c('cluster', 'listing_id'), 
+               names_to = 'date', 
+               values_to = 'price') %>% 
+  mutate(date = as_date(date))
+```
+
+## QUESTION 3d:
+
+For each cluster, visualize three series over time: mean price, mean price plus 
+one standard deviation, mean price minus one standard deviation. 
+
+The dates should be on the x axis, price should be on the y axis, and there should 
+be a facet for each cluster.
+
+### ANSWER:
+
+```{r}
+# Answer question 3d in this chunk.
+
+```
+
+# For fun
+You're done with the assignment! But for fun, let's see where these April-spiking listings are geographically. To execute this part, you'll need to use the `leaflet` package.
+
+We've isolated the signal: users in one group have large spikes at the specific week in April; users in the other don't. Now we're ready to visualize where these listings are located in geographic space. To do so, we need to combine our cluster labels with the geographic information in the `listings` data frame. We'll use `left_join()` for this, but first we need to remove all the duplicates in `prices_clustered`.  
+
+```{r}
+cluster_lookup <- prices_clustered %>% 
+  filter(!duplicated(listing_id)) %>% 
+  select(listing_id, cluster)
+
+locations_to_plot <- listings %>% 
+  left_join(cluster_lookup, by = c('id' = 'listing_id')) %>% 
+  filter(!is.na(cluster)) %>% 
+  select(cluster, latitude, longitude)
+
+locations_to_plot %>% head()
+```
+
+Now we'll plot using `leaflet`, an interactive geospatial visualization library. 
+
+```{r}
+pal <- colorFactor(c("navy", "orange"), domain = c("1", "2"))
+
+leaflet(data = locations_to_plot)%>% 
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addCircles(~longitude, ~latitude, radius = 50, color = ~pal(cluster))
+```
