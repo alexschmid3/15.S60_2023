@@ -1,0 +1,682 @@
+﻿ZIP Code,City,County,Type
+ZIP Code 01001,Agawam,Hampden,Standard
+ZIP Code 01002,Amherst,Hampshire,Standard
+ZIP Code 01003,Amherst,Hampshire,Standard
+ZIP Code 01004,Amherst,Hampshire,P.O. Box
+ZIP Code 01005,Barre,Worcester,Standard
+ZIP Code 01007,Belchertown,Hampshire,Standard
+ZIP Code 01008,Blandford,Hampden,Standard
+ZIP Code 01009,Bondsville,Hampden,P.O. Box
+ZIP Code 01010,Brimfield,Hampden,Standard
+ZIP Code 01011,Chester,Hampden,Standard
+ZIP Code 01012,Chesterfield,Hampshire,Standard
+ZIP Code 01013,Chicopee,Hampden,Standard
+ZIP Code 01014,Chicopee,Hampden,P.O. Box
+ZIP Code 01020,Chicopee,Hampden,Standard
+ZIP Code 01021,Chicopee,Hampden,P.O. Box
+ZIP Code 01022,Chicopee,Hampden,Standard
+ZIP Code 01026,Cummington,Hampshire,Standard
+ZIP Code 01027,Easthampton,Hampshire,Standard
+ZIP Code 01028,East Longmeadow,Hampden,Standard
+ZIP Code 01029,East Otis,Berkshire,P.O. Box
+ZIP Code 01030,Feeding Hills,Hampden,Standard
+ZIP Code 01031,Gilbertville,Worcester,Standard
+ZIP Code 01032,Goshen,Hampshire,Standard
+ZIP Code 01033,Granby,Hampshire,Standard
+ZIP Code 01034,Granville,Hampden,Standard
+ZIP Code 01035,Hadley,Hampshire,Standard
+ZIP Code 01036,Hampden,Hampden,Standard
+ZIP Code 01037,Hardwick,Worcester,P.O. Box
+ZIP Code 01038,Hatfield,Hampshire,Standard
+ZIP Code 01039,Haydenville,Hampshire,Standard
+ZIP Code 01040,Holyoke,Hampden,Standard
+ZIP Code 01041,Holyoke,Hampden,P.O. Box
+ZIP Code 01050,Huntington,Hampshire,Standard
+ZIP Code 01053,Leeds,Hampshire,Standard
+ZIP Code 01054,Leverett,Franklin,Standard
+ZIP Code 01056,Ludlow,Hampden,Standard
+ZIP Code 01057,Monson,Hampden,Standard
+ZIP Code 01059,North Amherst,Hampshire,P.O. Box
+ZIP Code 01060,Northampton,Hampshire,Standard
+ZIP Code 01061,Northampton,Hampshire,P.O. Box
+ZIP Code 01062,Florence,Hampshire,Standard
+ZIP Code 01062,Northampton,Hampshire,Standard
+ZIP Code 01063,Northampton,Hampshire,Unique
+ZIP Code 01066,North Hatfield,Hampshire,P.O. Box
+ZIP Code 01068,Oakham,Worcester,Standard
+ZIP Code 01069,Palmer,Hampden,Standard
+ZIP Code 01070,Plainfield,Hampshire,Standard
+ZIP Code 01071,Russell,Hampden,Standard
+ZIP Code 01072,Shutesbury,Franklin,Standard
+ZIP Code 01073,Southampton,Hampshire,Standard
+ZIP Code 01074,South Barre,Worcester,P.O. Box
+ZIP Code 01075,South Hadley,Hampshire,Standard
+ZIP Code 01077,Southwick,Hampden,Standard
+ZIP Code 01079,Thorndike,Hampden,P.O. Box
+ZIP Code 01080,Three Rivers,Hampden,Standard
+ZIP Code 01081,Wales,Hampden,Standard
+ZIP Code 01082,Ware,Hampshire,Standard
+ZIP Code 01083,Warren,Worcester,P.O. Box
+ZIP Code 01084,West Chesterfield,Hampshire,Standard
+ZIP Code 01085,Westfield,Hampden,Standard
+ZIP Code 01086,Westfield,Hampden,P.O. Box
+ZIP Code 01088,West Hatfield,Hampshire,Standard
+ZIP Code 01089,West Springfield,Hampden,Standard
+ZIP Code 01090,West Springfield,Hampden,P.O. Box
+ZIP Code 01092,West Warren,Worcester,P.O. Box
+ZIP Code 01093,Whately,Franklin,P.O. Box
+ZIP Code 01094,Wheelwright,Worcester,P.O. Box
+ZIP Code 01095,Wilbraham,Hampden,Standard
+ZIP Code 01096,Williamsburg,Hampshire,Standard
+ZIP Code 01097,Woronoco,Hampden,P.O. Box
+ZIP Code 01098,Worthington,Hampshire,Standard
+ZIP Code 01101,Springfield,Hampden,P.O. Box
+ZIP Code 01102,Springfield,Hampden,P.O. Box
+ZIP Code 01103,Springfield,Hampden,Standard
+ZIP Code 01104,Springfield,Hampden,Standard
+ZIP Code 01105,Springfield,Hampden,Standard
+ZIP Code 01106,Longmeadow,Hampden,Standard
+ZIP Code 01107,Springfield,Hampden,Standard
+ZIP Code 01108,Springfield,Hampden,Standard
+ZIP Code 01109,Springfield,Hampden,Standard
+ZIP Code 01111,Springfield,Hampden,Unique
+ZIP Code 01115,Springfield,Hampden,P.O. Box
+ZIP Code 01116,Longmeadow,Hampden,P.O. Box
+ZIP Code 01118,Springfield,Hampden,Standard
+ZIP Code 01119,Springfield,Hampden,Standard
+ZIP Code 01128,Springfield,Hampden,Standard
+ZIP Code 01129,Springfield,Hampden,Standard
+ZIP Code 01138,Springfield,Hampden,P.O. Box
+ZIP Code 01139,Springfield,Hampden,P.O. Box
+ZIP Code 01144,Springfield,Hampden,Standard
+ZIP Code 01151,Indian Orchard,Hampden,Standard
+ZIP Code 01152,Springfield,Hampden,Standard
+ZIP Code 01199,Springfield,Hampden,Unique
+ZIP Code 01201,Pittsfield,Berkshire,Standard
+ZIP Code 01202,Pittsfield,Berkshire,P.O. Box
+ZIP Code 01203,Pittsfield,Berkshire,P.O. Box
+ZIP Code 01220,Adams,Berkshire,Standard
+ZIP Code 01222,Ashley Falls,Berkshire,Standard
+ZIP Code 01223,Becket,Berkshire,Standard
+ZIP Code 01224,Berkshire,Berkshire,Standard
+ZIP Code 01225,Cheshire,Berkshire,Standard
+ZIP Code 01226,Dalton,Berkshire,Standard
+ZIP Code 01227,Dalton,Berkshire,P.O. Box
+ZIP Code 01229,Glendale,Berkshire,P.O. Box
+ZIP Code 01230,Great Barrington,Berkshire,Standard
+ZIP Code 01235,Hinsdale,Berkshire,Standard
+ZIP Code 01236,Housatonic,Berkshire,Standard
+ZIP Code 01237,Lanesborough,Berkshire,Standard
+ZIP Code 01238,Lee,Berkshire,Standard
+ZIP Code 01240,Lenox,Berkshire,Standard
+ZIP Code 01242,Lenox Dale,Berkshire,P.O. Box
+ZIP Code 01243,Middlefield,Hampshire,P.O. Box
+ZIP Code 01244,Mill River,Berkshire,P.O. Box
+ZIP Code 01245,Monterey,Berkshire,Standard
+ZIP Code 01247,North Adams,Berkshire,Standard
+ZIP Code 01252,North Egremont,Berkshire,Standard
+ZIP Code 01253,Otis,Berkshire,Standard
+ZIP Code 01254,Richmond,Berkshire,Standard
+ZIP Code 01255,Sandisfield,Berkshire,Standard
+ZIP Code 01256,Savoy,Berkshire,Standard
+ZIP Code 01257,Sheffield,Berkshire,Standard
+ZIP Code 01258,South Egremont,Berkshire,P.O. Box
+ZIP Code 01259,Southfield,Berkshire,Standard
+ZIP Code 01260,South Lee,Berkshire,P.O. Box
+ZIP Code 01262,Stockbridge,Berkshire,P.O. Box
+ZIP Code 01263,Stockbridge,Berkshire,Unique
+ZIP Code 01264,Tyringham,Berkshire,P.O. Box
+ZIP Code 01266,West Stockbridge,Berkshire,Standard
+ZIP Code 01267,Williamstown,Berkshire,Standard
+ZIP Code 01270,Windsor,Berkshire,Standard
+ZIP Code 01301,Greenfield,Franklin,Standard
+ZIP Code 01302,Greenfield,Franklin,P.O. Box
+ZIP Code 01330,Ashfield,Franklin,Standard
+ZIP Code 01331,Athol,Worcester,Standard
+ZIP Code 01337,Bernardston,Franklin,Standard
+ZIP Code 01338,Buckland,Franklin,Standard
+ZIP Code 01339,Charlemont,Franklin,Standard
+ZIP Code 01340,Colrain,Franklin,Standard
+ZIP Code 01341,Conway,Franklin,Standard
+ZIP Code 01342,Deerfield,Franklin,Standard
+ZIP Code 01343,Drury,Berkshire,Standard
+ZIP Code 01344,Erving,Franklin,Standard
+ZIP Code 01346,Heath,Franklin,Standard
+ZIP Code 01347,Lake Pleasant,Franklin,P.O. Box
+ZIP Code 01349,Millers Falls,Franklin,Standard
+ZIP Code 01350,Monroe Bridge,Franklin,P.O. Box
+ZIP Code 01351,Montague,Franklin,Standard
+ZIP Code 01354,Gill,Franklin,Standard
+ZIP Code 01355,New Salem,Franklin,Standard
+ZIP Code 01360,Northfield,Franklin,Standard
+ZIP Code 01364,Orange,Franklin,Standard
+ZIP Code 01366,Petersham,Worcester,Standard
+ZIP Code 01367,Rowe,Franklin,Standard
+ZIP Code 01368,Royalston,Worcester,Standard
+ZIP Code 01370,Shelburne Falls,Franklin,Standard
+ZIP Code 01373,South Deerfield,Franklin,Standard
+ZIP Code 01375,Sunderland,Franklin,Standard
+ZIP Code 01376,Turners Falls,Franklin,Standard
+ZIP Code 01378,Warwick,Franklin,Standard
+ZIP Code 01379,Wendell,Franklin,Standard
+ZIP Code 01380,Wendell Depot,Franklin,Standard
+ZIP Code 01420,Fitchburg,Worcester,Standard
+ZIP Code 01430,Ashburnham,Worcester,Standard
+ZIP Code 01431,Ashby,Middlesex,Standard
+ZIP Code 01432,Ayer,Middlesex,Standard
+ZIP Code 01434,Devens,Middlesex,Standard
+ZIP Code 01436,Baldwinville,Worcester,Standard
+ZIP Code 01438,East Templeton,Worcester,P.O. Box
+ZIP Code 01440,Gardner,Worcester,Standard
+ZIP Code 01441,Westminster,Worcester,Unique
+ZIP Code 01450,Groton,Middlesex,Standard
+ZIP Code 01451,Harvard,Worcester,Standard
+ZIP Code 01452,Hubbardston,Worcester,Standard
+ZIP Code 01453,Leominster,Worcester,Standard
+ZIP Code 01460,Littleton,Middlesex,Standard
+ZIP Code 01462,Lunenburg,Worcester,Standard
+ZIP Code 01463,Pepperell,Middlesex,Standard
+ZIP Code 01464,Shirley,Middlesex,Standard
+ZIP Code 01467,Still River,Worcester,P.O. Box
+ZIP Code 01468,Templeton,Worcester,Standard
+ZIP Code 01469,Townsend,Middlesex,Standard
+ZIP Code 01470,Groton,Middlesex,Unique
+ZIP Code 01471,Groton,Middlesex,Unique
+ZIP Code 01472,West Groton,Middlesex,P.O. Box
+ZIP Code 01473,Westminster,Worcester,Standard
+ZIP Code 01474,West Townsend,Middlesex,Standard
+ZIP Code 01475,Winchendon,Worcester,Standard
+ZIP Code 01501,Auburn,Worcester,Standard
+ZIP Code 01503,Berlin,Worcester,Standard
+ZIP Code 01504,Blackstone,Worcester,Standard
+ZIP Code 01505,Boylston,Worcester,Standard
+ZIP Code 01506,Brookfield,Worcester,Standard
+ZIP Code 01507,Charlton,Worcester,Standard
+ZIP Code 01508,Charlton City,Worcester,P.O. Box
+ZIP Code 01509,Charlton Depot,Worcester,P.O. Box
+ZIP Code 01510,Clinton,Worcester,Standard
+ZIP Code 01515,East Brookfield,Worcester,Standard
+ZIP Code 01516,Douglas,Worcester,Standard
+ZIP Code 01518,Fiskdale,Worcester,Standard
+ZIP Code 01519,Grafton,Worcester,Standard
+ZIP Code 01520,Holden,Worcester,Standard
+ZIP Code 01521,Holland,Hampden,Standard
+ZIP Code 01522,Jefferson,Worcester,Standard
+ZIP Code 01523,Lancaster,Worcester,Standard
+ZIP Code 01524,Leicester,Worcester,Standard
+ZIP Code 01525,Linwood,Worcester,P.O. Box
+ZIP Code 01526,Manchaug,Worcester,P.O. Box
+ZIP Code 01527,Millbury,Worcester,Standard
+ZIP Code 01529,Millville,Worcester,Standard
+ZIP Code 01531,New Braintree,Worcester,Standard
+ZIP Code 01532,Northborough,Worcester,Standard
+ZIP Code 01534,Northbridge,Worcester,Standard
+ZIP Code 01535,North Brookfield,Worcester,Standard
+ZIP Code 01536,North Grafton,Worcester,Standard
+ZIP Code 01537,North Oxford,Worcester,Standard
+ZIP Code 01538,North Uxbridge,Worcester,P.O. Box
+ZIP Code 01540,Oxford,Worcester,Standard
+ZIP Code 01541,Princeton,Worcester,Standard
+ZIP Code 01542,Rochdale,Worcester,Standard
+ZIP Code 01543,Rutland,Worcester,Standard
+ZIP Code 01545,Shrewsbury,Worcester,Standard
+ZIP Code 01546,Shrewsbury,Worcester,Unique
+ZIP Code 01550,Southbridge,Worcester,Standard
+ZIP Code 01560,South Grafton,Worcester,Standard
+ZIP Code 01561,South Lancaster,Worcester,P.O. Box
+ZIP Code 01562,Spencer,Worcester,Standard
+ZIP Code 01564,Sterling,Worcester,Standard
+ZIP Code 01566,Sturbridge,Worcester,Standard
+ZIP Code 01568,Upton,Worcester,Standard
+ZIP Code 01569,Uxbridge,Worcester,Standard
+ZIP Code 01570,Webster,Worcester,Standard
+ZIP Code 01571,Dudley,Worcester,Standard
+ZIP Code 01581,Westborough,Worcester,Standard
+ZIP Code 01583,West Boylston,Worcester,Standard
+ZIP Code 01585,West Brookfield,Worcester,Standard
+ZIP Code 01586,West Millbury,Worcester,P.O. Box
+ZIP Code 01588,Whitinsville,Worcester,Standard
+ZIP Code 01590,Sutton,Worcester,Standard
+ZIP Code 01601,Worcester,Worcester,P.O. Box
+ZIP Code 01602,Worcester,Worcester,Standard
+ZIP Code 01603,Worcester,Worcester,Standard
+ZIP Code 01604,Worcester,Worcester,Standard
+ZIP Code 01605,Worcester,Worcester,Standard
+ZIP Code 01606,Worcester,Worcester,Standard
+ZIP Code 01607,Worcester,Worcester,Standard
+ZIP Code 01608,Worcester,Worcester,Standard
+ZIP Code 01609,Worcester,Worcester,Standard
+ZIP Code 01610,Worcester,Worcester,Standard
+ZIP Code 01611,Cherry Valley,Worcester,Standard
+ZIP Code 01612,Paxton,Worcester,Standard
+ZIP Code 01613,Worcester,Worcester,P.O. Box
+ZIP Code 01614,Worcester,Worcester,P.O. Box
+ZIP Code 01615,Worcester,Worcester,P.O. Box
+ZIP Code 01653,Worcester,Worcester,Unique
+ZIP Code 01655,Worcester,Worcester,Standard
+ZIP Code 01701,Framingham,Middlesex,Standard
+ZIP Code 01702,Framingham,Middlesex,Standard
+ZIP Code 01703,Framingham,Middlesex,P.O. Box
+ZIP Code 01704,Framingham,Middlesex,P.O. Box
+ZIP Code 01705,Framingham,Middlesex,P.O. Box
+ZIP Code 01718,Acton,Middlesex,Standard
+ZIP Code 01719,Boxborough,Middlesex,Standard
+ZIP Code 01720,Acton,Middlesex,Standard
+ZIP Code 01721,Ashland,Middlesex,Standard
+ZIP Code 01730,Bedford,Middlesex,Standard
+ZIP Code 01731,Hanscom AFB,Middlesex,Standard
+ZIP Code 01740,Bolton,Worcester,Standard
+ZIP Code 01741,Carlisle,Middlesex,Standard
+ZIP Code 01742,Concord,Middlesex,Standard
+ZIP Code 01745,Fayville,Worcester,Standard
+ZIP Code 01746,Holliston,Middlesex,Standard
+ZIP Code 01747,Hopedale,Worcester,Standard
+ZIP Code 01748,Hopkinton,Middlesex,Standard
+ZIP Code 01749,Hudson,Middlesex,Standard
+ZIP Code 01752,Marlborough,Middlesex,Standard
+ZIP Code 01754,Maynard,Middlesex,Standard
+ZIP Code 01756,Mendon,Worcester,Standard
+ZIP Code 01757,Milford,Worcester,Standard
+ZIP Code 01760,Natick,Middlesex,Standard
+ZIP Code 01770,Sherborn,Middlesex,Standard
+ZIP Code 01772,Southborough,Worcester,Standard
+ZIP Code 01773,Lincoln,Middlesex,Standard
+ZIP Code 01775,Stow,Middlesex,Standard
+ZIP Code 01776,Sudbury,Middlesex,Standard
+ZIP Code 01778,Wayland,Middlesex,Standard
+ZIP Code 01784,Woodville,Middlesex,P.O. Box
+ZIP Code 01801,Woburn,Middlesex,Standard
+ZIP Code 01803,Burlington,Middlesex,Standard
+ZIP Code 01805,Burlington,Middlesex,Unique
+ZIP Code 01810,Andover,Essex,Standard
+ZIP Code 01812,Andover,Essex,Unique
+ZIP Code 01813,Woburn,Middlesex,Unique
+ZIP Code 01815,Woburn,Middlesex,Unique
+ZIP Code 01821,Billerica,Middlesex,Standard
+ZIP Code 01822,Billerica,Middlesex,P.O. Box
+ZIP Code 01824,Chelmsford,Middlesex,Standard
+ZIP Code 01826,Dracut,Middlesex,Standard
+ZIP Code 01827,Dunstable,Middlesex,Standard
+ZIP Code 01830,Haverhill,Essex,Standard
+ZIP Code 01831,Haverhill,Essex,P.O. Box
+ZIP Code 01832,Haverhill,Essex,Standard
+ZIP Code 01833,Georgetown,Essex,Standard
+ZIP Code 01834,Groveland,Essex,Standard
+ZIP Code 01835,Haverhill,Essex,Standard
+ZIP Code 01840,Lawrence,Essex,Standard
+ZIP Code 01841,Lawrence,Essex,Standard
+ZIP Code 01842,Lawrence,Essex,P.O. Box
+ZIP Code 01843,Lawrence,Essex,Standard
+ZIP Code 01844,Methuen,Essex,Standard
+ZIP Code 01845,North Andover,Essex,Standard
+ZIP Code 01850,Lowell,Middlesex,Standard
+ZIP Code 01851,Lowell,Middlesex,Standard
+ZIP Code 01852,Lowell,Middlesex,Standard
+ZIP Code 01853,Lowell,Middlesex,P.O. Box
+ZIP Code 01854,Lowell,Middlesex,Standard
+ZIP Code 01860,Merrimac,Essex,Standard
+ZIP Code 01862,North Billerica,Middlesex,Standard
+ZIP Code 01863,North Chelmsford,Middlesex,Standard
+ZIP Code 01864,North Reading,Middlesex,Standard
+ZIP Code 01865,Nutting Lake,Middlesex,P.O. Box
+ZIP Code 01866,Pinehurst,Middlesex,P.O. Box
+ZIP Code 01867,Reading,Middlesex,Standard
+ZIP Code 01876,Tewksbury,Middlesex,Standard
+ZIP Code 01879,Tyngsboro,Middlesex,Standard
+ZIP Code 01880,Wakefield,Middlesex,Standard
+ZIP Code 01885,West Boxford,Essex,P.O. Box
+ZIP Code 01886,Westford,Middlesex,Standard
+ZIP Code 01887,Wilmington,Middlesex,Standard
+ZIP Code 01888,Woburn,Middlesex,P.O. Box
+ZIP Code 01889,North Reading,Middlesex,Unique
+ZIP Code 01890,Winchester,Middlesex,Standard
+ZIP Code 01899,Andover,Essex,Unique
+ZIP Code 01901,Lynn,Essex,Standard
+ZIP Code 01902,Lynn,Essex,Standard
+ZIP Code 01903,Lynn,Essex,P.O. Box
+ZIP Code 01904,Lynn,Essex,Standard
+ZIP Code 01905,Lynn,Essex,Standard
+ZIP Code 01906,Saugus,Essex,Standard
+ZIP Code 01907,Swampscott,Essex,Standard
+ZIP Code 01908,Nahant,Essex,Standard
+ZIP Code 01910,Lynn,Essex,Unique
+ZIP Code 01913,Amesbury,Essex,Standard
+ZIP Code 01915,Beverly,Essex,Standard
+ZIP Code 01921,Boxford,Essex,Standard
+ZIP Code 01922,Byfield,Essex,Standard
+ZIP Code 01923,Danvers,Essex,Standard
+ZIP Code 01929,Essex,Essex,Standard
+ZIP Code 01930,Gloucester,Essex,Standard
+ZIP Code 01931,Gloucester,Essex,P.O. Box
+ZIP Code 01936,Hamilton,Essex,P.O. Box
+ZIP Code 01937,Hathorne,Essex,P.O. Box
+ZIP Code 01938,Ipswich,Essex,Standard
+ZIP Code 01940,Lynnfield,Essex,Standard
+ZIP Code 01944,Manchester,Essex,Standard
+ZIP Code 01945,Marblehead,Essex,Standard
+ZIP Code 01949,Middleton,Essex,Standard
+ZIP Code 01950,Newburyport,Essex,Standard
+ZIP Code 01951,Newbury,Essex,Standard
+ZIP Code 01952,Salisbury,Essex,Standard
+ZIP Code 01960,Peabody,Essex,Standard
+ZIP Code 01961,Peabody,Essex,P.O. Box
+ZIP Code 01965,Prides Crossing,Essex,P.O. Box
+ZIP Code 01966,Rockport,Essex,Standard
+ZIP Code 01969,Rowley,Essex,Standard
+ZIP Code 01970,Salem,Essex,Standard
+ZIP Code 01971,Salem,Essex,P.O. Box
+ZIP Code 01982,South Hamilton,Essex,Standard
+ZIP Code 01983,Topsfield,Essex,Standard
+ZIP Code 01984,Wenham,Essex,Standard
+ZIP Code 01985,West Newbury,Essex,Standard
+ZIP Code 02018,Accord,Plymouth,P.O. Box
+ZIP Code 02019,Bellingham,Norfolk,Standard
+ZIP Code 02020,Brant Rock,Plymouth,P.O. Box
+ZIP Code 02021,Canton,Norfolk,Standard
+ZIP Code 02025,Cohasset,Norfolk,Standard
+ZIP Code 02026,Dedham,Norfolk,Standard
+ZIP Code 02027,Dedham,Norfolk,P.O. Box
+ZIP Code 02030,Dover,Norfolk,Standard
+ZIP Code 02032,East Walpole,Norfolk,Standard
+ZIP Code 02035,Foxboro,Norfolk,Standard
+ZIP Code 02038,Franklin,Norfolk,Standard
+ZIP Code 02040,Greenbush,Plymouth,P.O. Box
+ZIP Code 02041,Green Harbor,Plymouth,P.O. Box
+ZIP Code 02043,Hingham,Plymouth,Standard
+ZIP Code 02044,Hingham,Plymouth,Unique
+ZIP Code 02045,Hull,Plymouth,Standard
+ZIP Code 02047,Humarock,Plymouth,P.O. Box
+ZIP Code 02048,Mansfield,Bristol,Standard
+ZIP Code 02050,Marshfield,Plymouth,Standard
+ZIP Code 02051,Marshfield Hills,Plymouth,P.O. Box
+ZIP Code 02052,Medfield,Norfolk,Standard
+ZIP Code 02053,Medway,Norfolk,Standard
+ZIP Code 02054,Millis,Norfolk,Standard
+ZIP Code 02055,Minot,Plymouth,P.O. Box
+ZIP Code 02056,Norfolk,Norfolk,Standard
+ZIP Code 02059,North Marshfield,Plymouth,P.O. Box
+ZIP Code 02060,North Scituate,Plymouth,P.O. Box
+ZIP Code 02061,Norwell,Plymouth,Standard
+ZIP Code 02062,Norwood,Norfolk,Standard
+ZIP Code 02065,Ocean Bluff,Plymouth,P.O. Box
+ZIP Code 02066,Scituate,Plymouth,Standard
+ZIP Code 02067,Sharon,Norfolk,Standard
+ZIP Code 02070,Sheldonville,Norfolk,P.O. Box
+ZIP Code 02071,South Walpole,Norfolk,Standard
+ZIP Code 02072,Stoughton,Norfolk,Standard
+ZIP Code 02081,Walpole,Norfolk,Standard
+ZIP Code 02090,Westwood,Norfolk,Standard
+ZIP Code 02093,Wrentham,Norfolk,Standard
+ZIP Code 02108,Boston,Suffolk,Standard
+ZIP Code 02109,Boston,Suffolk,Standard
+ZIP Code 02110,Boston,Suffolk,Standard
+ZIP Code 02111,Boston,Suffolk,Standard
+ZIP Code 02112,Boston,Suffolk,P.O. Box
+ZIP Code 02113,Boston,Suffolk,Standard
+ZIP Code 02114,Boston,Suffolk,Standard
+ZIP Code 02115,Boston,Suffolk,Standard
+ZIP Code 02116,Boston,Suffolk,Standard
+ZIP Code 02117,Boston,Suffolk,P.O. Box
+ZIP Code 02118,Boston,Suffolk,Standard
+ZIP Code 02119,Roxbury,Suffolk,Standard
+ZIP Code 02120,Roxbury Crossing,Suffolk,Standard
+ZIP Code 02121,Dorchester,Suffolk,Standard
+ZIP Code 02122,Dorchester,Suffolk,Standard
+ZIP Code 02123,Boston,Suffolk,P.O. Box
+ZIP Code 02124,Dorchester Center,Suffolk,Standard
+ZIP Code 02125,Dorchester,Suffolk,Standard
+ZIP Code 02126,Mattapan,Suffolk,Standard
+ZIP Code 02127,South Boston,Suffolk,Standard
+ZIP Code 02128,East Boston,Suffolk,Standard
+ZIP Code 02129,Charlestown,Suffolk,Standard
+ZIP Code 02130,Jamaica Plain,Suffolk,Standard
+ZIP Code 02131,Roslindale,Suffolk,Standard
+ZIP Code 02132,West Roxbury,Suffolk,Standard
+ZIP Code 02133,Boston,Suffolk,Standard
+ZIP Code 02134,Allston,Suffolk,Standard
+ZIP Code 02135,Brighton,Suffolk,Standard
+ZIP Code 02136,Hyde Park,Suffolk,Standard
+ZIP Code 02137,Readville,Suffolk,P.O. Box
+ZIP Code 02138,Cambridge,Middlesex,Standard
+ZIP Code 02139,Cambridge,Middlesex,Standard
+ZIP Code 02140,Cambridge,Middlesex,Standard
+ZIP Code 02141,Cambridge,Middlesex,Standard
+ZIP Code 02142,Cambridge,Middlesex,Standard
+ZIP Code 02143,Somerville,Middlesex,Standard
+ZIP Code 02144,Somerville,Middlesex,Standard
+ZIP Code 02145,Somerville,Middlesex,Standard
+ZIP Code 02148,Malden,Middlesex,Standard
+ZIP Code 02149,Everett,Middlesex,Standard
+ZIP Code 02150,Chelsea,Suffolk,Standard
+ZIP Code 02151,Revere,Suffolk,Standard
+ZIP Code 02152,Winthrop,Suffolk,Standard
+ZIP Code 02153,Medford,Middlesex,P.O. Box
+ZIP Code 02155,Medford,Middlesex,Standard
+ZIP Code 02156,West Medford,Middlesex,P.O. Box
+ZIP Code 02163,Boston,Suffolk,Standard
+ZIP Code 02169,Quincy,Norfolk,Standard
+ZIP Code 02170,Quincy,Norfolk,Standard
+ZIP Code 02171,Quincy,Norfolk,Standard
+ZIP Code 02176,Melrose,Middlesex,Standard
+ZIP Code 02180,Stoneham,Middlesex,Standard
+ZIP Code 02184,Braintree,Norfolk,Standard
+ZIP Code 02185,Braintree,Norfolk,P.O. Box
+ZIP Code 02186,Milton,Norfolk,Standard
+ZIP Code 02187,Milton Village,Norfolk,P.O. Box
+ZIP Code 02188,Weymouth,Norfolk,Standard
+ZIP Code 02189,East Weymouth,Norfolk,Standard
+ZIP Code 02190,South Weymouth,Norfolk,Standard
+ZIP Code 02191,North Weymouth,Norfolk,Standard
+ZIP Code 02196,Boston,Suffolk,P.O. Box
+ZIP Code 02199,Boston,Suffolk,Standard
+ZIP Code 02201,Boston,Suffolk,Unique
+ZIP Code 02203,Boston,Suffolk,Standard
+ZIP Code 02204,Boston,Suffolk,Unique
+ZIP Code 02205,Boston,Suffolk,P.O. Box
+ZIP Code 02206,Boston,Suffolk,Unique
+ZIP Code 02210,Boston,Suffolk,Standard
+ZIP Code 02211,Boston,Suffolk,Unique
+ZIP Code 02212,Boston,Suffolk,Unique
+ZIP Code 02215,Boston,Suffolk,Standard
+ZIP Code 02217,Boston,Suffolk,Unique
+ZIP Code 02222,Boston,Suffolk,Standard
+ZIP Code 02238,Cambridge,Middlesex,P.O. Box
+ZIP Code 02241,Boston,Suffolk,Unique
+ZIP Code 02269,Quincy,Norfolk,P.O. Box
+ZIP Code 02283,Boston,Suffolk,P.O. Box
+ZIP Code 02284,Boston,Suffolk,P.O. Box
+ZIP Code 02293,Boston,Suffolk,Unique
+ZIP Code 02297,Boston,Suffolk,Unique
+ZIP Code 02298,Boston,Suffolk,P.O. Box
+ZIP Code 02301,Brockton,Plymouth,Standard
+ZIP Code 02302,Brockton,Plymouth,Standard
+ZIP Code 02303,Brockton,Plymouth,P.O. Box
+ZIP Code 02304,Brockton,Plymouth,P.O. Box
+ZIP Code 02305,Brockton,Plymouth,P.O. Box
+ZIP Code 02322,Avon,Norfolk,Standard
+ZIP Code 02324,Bridgewater,Plymouth,Standard
+ZIP Code 02325,Bridgewater,Plymouth,Unique
+ZIP Code 02327,Bryantville,Plymouth,P.O. Box
+ZIP Code 02330,Carver,Plymouth,Standard
+ZIP Code 02331,Duxbury,Plymouth,P.O. Box
+ZIP Code 02332,Duxbury,Plymouth,Standard
+ZIP Code 02333,East Bridgewater,Plymouth,Standard
+ZIP Code 02334,Easton,Bristol,P.O. Box
+ZIP Code 02337,Elmwood,Plymouth,P.O. Box
+ZIP Code 02338,Halifax,Plymouth,Standard
+ZIP Code 02339,Hanover,Plymouth,Standard
+ZIP Code 02341,Hanson,Plymouth,Standard
+ZIP Code 02343,Holbrook,Norfolk,Standard
+ZIP Code 02344,Middleboro,Plymouth,Unique
+ZIP Code 02345,Manomet,Plymouth,P.O. Box
+ZIP Code 02346,Middleboro,Plymouth,Standard
+ZIP Code 02347,Lakeville,Plymouth,Standard
+ZIP Code 02348,Lakeville,Plymouth,Unique
+ZIP Code 02349,Middleboro,Plymouth,Unique
+ZIP Code 02350,Monponsett,Plymouth,P.O. Box
+ZIP Code 02351,Abington,Plymouth,Standard
+ZIP Code 02355,North Carver,Plymouth,P.O. Box
+ZIP Code 02356,North Easton,Bristol,Standard
+ZIP Code 02357,North Easton,Bristol,Unique
+ZIP Code 02358,North Pembroke,Plymouth,P.O. Box
+ZIP Code 02359,Pembroke,Plymouth,Standard
+ZIP Code 02360,Plymouth,Plymouth,Standard
+ZIP Code 02361,Plymouth,Plymouth,P.O. Box
+ZIP Code 02362,Plymouth,Plymouth,P.O. Box
+ZIP Code 02364,Kingston,Plymouth,Standard
+ZIP Code 02366,South Carver,Plymouth,P.O. Box
+ZIP Code 02367,Plympton,Plymouth,Standard
+ZIP Code 02368,Randolph,Norfolk,Standard
+ZIP Code 02370,Rockland,Plymouth,Standard
+ZIP Code 02375,South Easton,Bristol,Standard
+ZIP Code 02379,West Bridgewater,Plymouth,Standard
+ZIP Code 02381,White Horse Beach,Plymouth,P.O. Box
+ZIP Code 02382,Whitman,Plymouth,Standard
+ZIP Code 02420,Lexington,Middlesex,Standard
+ZIP Code 02421,Lexington,Middlesex,Standard
+ZIP Code 02445,Brookline,Norfolk,Standard
+ZIP Code 02446,Brookline,Norfolk,Standard
+ZIP Code 02447,Brookline Village,Norfolk,P.O. Box
+ZIP Code 02451,Waltham,Middlesex,Standard
+ZIP Code 02452,Waltham,Middlesex,Standard
+ZIP Code 02453,Waltham,Middlesex,Standard
+ZIP Code 02454,Waltham,Middlesex,P.O. Box
+ZIP Code 02455,North Waltham,Middlesex,P.O. Box
+ZIP Code 02456,New Town,Middlesex,P.O. Box
+ZIP Code 02457,Babson Park,Norfolk,P.O. Box
+ZIP Code 02458,Newton,Middlesex,Standard
+ZIP Code 02459,Newton Center,Middlesex,Standard
+ZIP Code 02460,Newtonville,Middlesex,Standard
+ZIP Code 02461,Newton Highlands,Middlesex,Standard
+ZIP Code 02462,Newton Lower Falls,Middlesex,Standard
+ZIP Code 02464,Newton Upper Falls,Middlesex,Standard
+ZIP Code 02465,West Newton,Middlesex,Standard
+ZIP Code 02466,Auburndale,Middlesex,Standard
+ZIP Code 02467,Chestnut Hill,Middlesex,Standard
+ZIP Code 02468,Waban,Middlesex,Standard
+ZIP Code 02471,Watertown,Middlesex,P.O. Box
+ZIP Code 02472,Watertown,Middlesex,Standard
+ZIP Code 02474,Arlington,Middlesex,Standard
+ZIP Code 02475,Arlington Heights,Middlesex,P.O. Box
+ZIP Code 02476,Arlington,Middlesex,Standard
+ZIP Code 02477,Watertown,Middlesex,Unique
+ZIP Code 02478,Belmont,Middlesex,Standard
+ZIP Code 02479,Waverley,Middlesex,P.O. Box
+ZIP Code 02481,Wellesley Hills,Norfolk,Standard
+ZIP Code 02482,Wellesley,Norfolk,Standard
+ZIP Code 02492,Needham,Norfolk,Standard
+ZIP Code 02493,Weston,Middlesex,Standard
+ZIP Code 02494,Needham Heights,Norfolk,Standard
+ZIP Code 02495,Nonantum,Middlesex,P.O. Box
+ZIP Code 02532,Buzzards Bay,Barnstable,Standard
+ZIP Code 02534,Cataumet,Barnstable,P.O. Box
+ZIP Code 02535,Chilmark,Dukes,Standard
+ZIP Code 02536,East Falmouth,Barnstable,Standard
+ZIP Code 02537,East Sandwich,Barnstable,Standard
+ZIP Code 02538,East Wareham,Plymouth,Standard
+ZIP Code 02539,Edgartown,Dukes,Standard
+ZIP Code 02540,Falmouth,Barnstable,Standard
+ZIP Code 02541,Falmouth,Barnstable,P.O. Box
+ZIP Code 02542,Buzzards Bay,Barnstable,Standard
+ZIP Code 02543,Woods Hole,Barnstable,Standard
+ZIP Code 02552,Menemsha,Dukes,P.O. Box
+ZIP Code 02553,Monument Beach,Barnstable,P.O. Box
+ZIP Code 02554,Nantucket,Nantucket,Standard
+ZIP Code 02556,North Falmouth,Barnstable,Standard
+ZIP Code 02557,Oak Bluffs,Dukes,P.O. Box
+ZIP Code 02558,Onset,Plymouth,P.O. Box
+ZIP Code 02559,Pocasset,Barnstable,Standard
+ZIP Code 02561,Sagamore,Barnstable,P.O. Box
+ZIP Code 02562,Sagamore Beach,Barnstable,Standard
+ZIP Code 02563,Sandwich,Barnstable,Standard
+ZIP Code 02564,Siasconset,Nantucket,P.O. Box
+ZIP Code 02568,Vineyard Haven,Dukes,Standard
+ZIP Code 02571,Wareham,Plymouth,Standard
+ZIP Code 02574,West Falmouth,Barnstable,P.O. Box
+ZIP Code 02575,West Tisbury,Dukes,P.O. Box
+ZIP Code 02576,West Wareham,Plymouth,Standard
+ZIP Code 02584,Nantucket,Nantucket,P.O. Box
+ZIP Code 02601,Hyannis,Barnstable,Standard
+ZIP Code 02630,Barnstable,Barnstable,Standard
+ZIP Code 02631,Brewster,Barnstable,Standard
+ZIP Code 02632,Centerville,Barnstable,Standard
+ZIP Code 02633,Chatham,Barnstable,Standard
+ZIP Code 02634,Centerville,Barnstable,P.O. Box
+ZIP Code 02635,Cotuit,Barnstable,Standard
+ZIP Code 02637,Cummaquid,Barnstable,P.O. Box
+ZIP Code 02638,Dennis,Barnstable,Standard
+ZIP Code 02639,Dennis Port,Barnstable,Standard
+ZIP Code 02641,East Dennis,Barnstable,P.O. Box
+ZIP Code 02642,Eastham,Barnstable,Standard
+ZIP Code 02643,East Orleans,Barnstable,P.O. Box
+ZIP Code 02644,Forestdale,Barnstable,Standard
+ZIP Code 02645,Harwich,Barnstable,Standard
+ZIP Code 02646,Harwich Port,Barnstable,Standard
+ZIP Code 02647,Hyannis Port,Barnstable,P.O. Box
+ZIP Code 02648,Marstons Mills,Barnstable,Standard
+ZIP Code 02649,Mashpee,Barnstable,Standard
+ZIP Code 02650,North Chatham,Barnstable,Standard
+ZIP Code 02651,North Eastham,Barnstable,P.O. Box
+ZIP Code 02652,North Truro,Barnstable,P.O. Box
+ZIP Code 02653,Orleans,Barnstable,Standard
+ZIP Code 02655,Osterville,Barnstable,Standard
+ZIP Code 02657,Provincetown,Barnstable,Standard
+ZIP Code 02659,South Chatham,Barnstable,Standard
+ZIP Code 02660,South Dennis,Barnstable,Standard
+ZIP Code 02661,South Harwich,Barnstable,P.O. Box
+ZIP Code 02662,South Orleans,Barnstable,P.O. Box
+ZIP Code 02663,South Wellfleet,Barnstable,P.O. Box
+ZIP Code 02664,South Yarmouth,Barnstable,Standard
+ZIP Code 02666,Truro,Barnstable,P.O. Box
+ZIP Code 02667,Wellfleet,Barnstable,Standard
+ZIP Code 02668,West Barnstable,Barnstable,Standard
+ZIP Code 02669,West Chatham,Barnstable,P.O. Box
+ZIP Code 02670,West Dennis,Barnstable,Standard
+ZIP Code 02671,West Harwich,Barnstable,Standard
+ZIP Code 02672,West Hyannisport,Barnstable,P.O. Box
+ZIP Code 02673,West Yarmouth,Barnstable,Standard
+ZIP Code 02675,Yarmouth Port,Barnstable,Standard
+ZIP Code 02702,Assonet,Bristol,Standard
+ZIP Code 02703,Attleboro,Bristol,Standard
+ZIP Code 02712,Chartley,Bristol,P.O. Box
+ZIP Code 02713,Cuttyhunk,Dukes,P.O. Box
+ZIP Code 02714,Dartmouth,Bristol,P.O. Box
+ZIP Code 02715,Dighton,Bristol,Standard
+ZIP Code 02717,East Freetown,Bristol,Standard
+ZIP Code 02718,East Taunton,Bristol,Standard
+ZIP Code 02719,Fairhaven,Bristol,Standard
+ZIP Code 02720,Fall River,Bristol,Standard
+ZIP Code 02721,Fall River,Bristol,Standard
+ZIP Code 02722,Fall River,Bristol,P.O. Box
+ZIP Code 02723,Fall River,Bristol,Standard
+ZIP Code 02724,Fall River,Bristol,Standard
+ZIP Code 02725,Somerset,Bristol,Standard
+ZIP Code 02726,Somerset,Bristol,Standard
+ZIP Code 02738,Marion,Plymouth,Standard
+ZIP Code 02739,Mattapoisett,Plymouth,Standard
+ZIP Code 02740,New Bedford,Bristol,Standard
+ZIP Code 02741,New Bedford,Bristol,P.O. Box
+ZIP Code 02742,New Bedford,Bristol,P.O. Box
+ZIP Code 02743,Acushnet,Bristol,Standard
+ZIP Code 02744,New Bedford,Bristol,Standard
+ZIP Code 02745,New Bedford,Bristol,Standard
+ZIP Code 02746,New Bedford,Bristol,Standard
+ZIP Code 02747,North Dartmouth,Bristol,Standard
+ZIP Code 02748,South Dartmouth,Bristol,Standard
+ZIP Code 02760,North Attleboro,Bristol,Standard
+ZIP Code 02761,North Attleboro,Bristol,P.O. Box
+ZIP Code 02762,Plainville,Norfolk,Standard
+ZIP Code 02763,Attleboro Falls,Bristol,Standard
+ZIP Code 02764,North Dighton,Bristol,Standard
+ZIP Code 02766,Norton,Bristol,Standard
+ZIP Code 02767,Raynham,Bristol,Standard
+ZIP Code 02768,Raynham Center,Bristol,P.O. Box
+ZIP Code 02769,Rehoboth,Bristol,Standard
+ZIP Code 02770,Rochester,Plymouth,Standard
+ZIP Code 02771,Seekonk,Bristol,Standard
+ZIP Code 02777,Swansea,Bristol,Standard
+ZIP Code 02779,Berkley,Bristol,Standard
+ZIP Code 02780,Taunton,Bristol,Standard
+ZIP Code 02790,Westport,Bristol,Standard
+ZIP Code 02791,Westport Point,Bristol,P.O. Box
+ZIP Code 05501,Andover,Essex,Unique
