@@ -53,11 +53,12 @@ If you're using **Windows**, there are many options for access. The simplest is 
 
 Once you've logged into Engaging, check to ensure you can run the following commands (don't worry if you don't understand what we're doing here - we'll discuss during the session):
 
-1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: this may take a few minutes depending on how busy the cluster is)
-2. ```module load julia/1.7.3```
-3. ```module load gurobi/8.1.1```
-4. ```julia``` (At this point, a Julia session will open)
-5. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
+1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: it may take a while before you are allocated resources depending on how busy the cluster is)
+2. Once you have been allocated resources, your terminal will display `[username@node029 ~]$` or some other node number. We can then proceed to load some software modules.
+3. ```module load julia/1.7.3```
+4. ```module load gurobi/8.1.1```
+5. ```julia``` (At this point, a Julia session will open)
+6. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
 
 ```julia
 julia> using Pkg
