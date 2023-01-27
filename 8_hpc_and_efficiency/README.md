@@ -7,6 +7,8 @@ In this session, we will be working with computing clusters. To complete the in-
 
 All of these options will work for our class!
 
+## Select one of the following option to use in class and complete the pre-assignment:
+
 ### Option 1: Engaging Open On Demand 
 Login to [https://engaging-ood.mit.edu](https://engaging-ood.mit.edu). Click Clusters, then Engaging Shell Access. This should open a browser window with a terminal that says either `[yourusername@eofe7 ~]$` or `[yourusername@eofe8 ~]$`. This is one of the login nodes of the Engaging cluster. You're in!
 
