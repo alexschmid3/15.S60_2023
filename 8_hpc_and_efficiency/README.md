@@ -15,10 +15,11 @@ Login to [https://engaging-ood.mit.edu](https://engaging-ood.mit.edu). Click Clu
 Once you've logged into Engaging, run the following commands *in this order* in the terminal (don't worry if you don't understand what we're doing here - we'll discuss during the session):
 
 1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: this may take a few minutes depending on how busy the cluster is)
-2. ```module load julia/1.7.3```
-3. ```module load gurobi/8.1.1```
-4. ```julia``` (At this point, a Julia session will open)
-5. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
+2. 2. Once you have been allocated resources, your terminal will display `[username@node029 ~]$` or some other node number. We can now load some software modules.
+3. ```module load julia/1.7.3```
+4. ```module load gurobi/8.1.1```
+5. ```julia``` (At this point, a Julia session will open)
+6. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
 
 ```julia
 julia> using Pkg
@@ -51,10 +52,10 @@ If you're using **Mac/linux**, type `ssh <kerberos_user_name>@eosloan.mit.edu` i
 
 If you're using **Windows**, there are many options for access. The simplest is to open Git Bash (see pre-assignment 1),  type `ssh <kerberos_user_name>@eosloan.mit.edu` into the terminal and enter your password. If you're more comfortable with graphical interfaces than command line, you can also download [MobaXterm](https://engaging-web.mit.edu/eofe-wiki/logging_in/ssh/windows/), as recommended by the Engaging Admin. In class, we'll use Git Bash for consistency, but I'll mention MobaXterm as well!  
 
-Once you've logged into Engaging, check to ensure you can run the following commands (don't worry if you don't understand what we're doing here - we'll discuss during the session):
+Once you've logged into Engaging, you will be on the login node, so your terminal will say `[username@eosloan ~]$`. Check to ensure you can run the following commands (don't worry if you don't understand what we're doing here - we'll discuss during the session):
 
 1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: it may take a while before you are allocated resources depending on how busy the cluster is)
-2. Once you have been allocated resources, your terminal will display `[username@node029 ~]$` or some other node number. We can then proceed to load some software modules.
+2. Once you have been allocated resources, your terminal will display `[username@node029 ~]$` or some other node number. We can now load some software modules.
 3. ```module load julia/1.7.3```
 4. ```module load gurobi/8.1.1```
 5. ```julia``` (At this point, a Julia session will open)
@@ -77,7 +78,7 @@ julia> using DataFrames, CSV, JuMP, Gurobi
 
 julia> exit()
 ```
-5. Enter ```exit```. This should bring you back to the login node. 
+5. Enter ```exit```. This should bring you back to the login node, displaying `[username@eosloan ~]$`. 
 5. Type ```exit``` again. This will end the cluster session. 
 6. **Take a screenshot of your terminal window and commands**.
 7. You can then close out of your terminal window. 
@@ -93,12 +94,12 @@ If you're using **Mac/linux**, type `ssh <kerberos_user_name>@txe1-login.mit.edu
 
 If you're using **Windows**, there are many options for access. The simplest is to open Git Bash (see pre-assignment 1),  type `ssh <kerberos_user_name>@txe1-login.mit.edu` into the terminal and enter your password. 
 
-Once you've logged into SuperCloud, check to ensure you can run the following commands:
+Once you've logged into SuperCloud, you will be on a login node, so the terminal will display something like `[username@login-4 ~]$`. Check to ensure you can run the following commands to load software and packages:
 
 1. ```module load julia/1.7.3```
 2. ```module load gurobi/gurobi-811```
 3. ```julia``` (At this point, a Julia session will open)
-4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may some time): 
+4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take some time): 
 
 ```julia
 julia> using Pkg
