@@ -17,14 +17,27 @@ Once you've logged into Engaging, run the following commands *in this order* in 
 1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: this may take a few minutes depending on how busy the cluster is)
 2. ```module load julia/1.7.3```
 3. ```julia``` (At this point, a Julia session will open)
-4. Enter the following commands to Julia to print Hello World and exit the Julia window:
+4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
 
 ```julia
-julia> println("Hello, World!")
+julia> using Pkg
+
+julia> Pkg.add("DataFrames")
+
+julia> Pkg.add("CSV")
+
+julia> Pkg.add("JuMP")
+
+julia> Pkg.add("Gurobi")
+
+julia> Pkg.add("Plots")
+
+julia> using DataFrames, CSV, JuMP, Gurobi
 
 julia> exit()
 ```
 5. Type ```exit```. This should bring you back to the login node, so your terminal will again say `[yourusername@eofe7 ~]$` or `[yourusername@eofe8 ~]$`. 
+5. Type ```exit``` again. This will end the cluster session. 
 6. **Take a screenshot of your terminal window and commands**.
 7. You can then close out of the Engaging shell browser window. 
 
@@ -42,14 +55,27 @@ Once you've logged into Engaging, check to ensure you can run the following comm
 1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: this may take a few minutes depending on how busy the cluster is)
 2. ```module load julia/1.7.3```
 3. ```julia``` (At this point, a Julia session will open)
-4. Enter the following commands:
+4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
 
 ```julia
-julia> println("Hello, World!")
+julia> using Pkg
+
+julia> Pkg.add("DataFrames")
+
+julia> Pkg.add("CSV")
+
+julia> Pkg.add("JuMP")
+
+julia> Pkg.add("Gurobi")
+
+julia> Pkg.add("Plots")
+
+julia> using DataFrames, CSV, JuMP, Gurobi
 
 julia> exit()
 ```
-5. Enter ```exit```. This shouldbring you back to the login node, so your terminal will again say `[yourusername@eofe7 ~]$` or `[yourusername@eofe8 ~]$`. 
+5. Enter ```exit```. This should bring you back to the login node. 
+5. Type ```exit``` again. This will end the cluster session. 
 6. **Take a screenshot of your terminal window and commands**.
 7. You can then close out of your terminal window. 
 
@@ -68,13 +94,26 @@ Once you've logged into SuperCloud, check to ensure you can run the following co
 
 1. ```module load julia/1.7.3```
 2. ```julia``` (At this point, a Julia session will open)
-3. Enter the following commands:
+4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
 
 ```julia
-julia> println("Hello, World!")
+julia> using Pkg
+
+julia> Pkg.add("DataFrames")
+
+julia> Pkg.add("CSV")
+
+julia> Pkg.add("JuMP")
+
+julia> Pkg.add("Gurobi")
+
+julia> Pkg.add("Plots")
+
+julia> using DataFrames, CSV, JuMP, Gurobi
 
 julia> exit()
 ```
+5. Type ```exit```. This will end the cluster session. 
 4. **Take a screenshot of your terminal window and commands**.
 5. You can then close out of your terminal window. 
 
