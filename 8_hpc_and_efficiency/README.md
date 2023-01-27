@@ -34,7 +34,7 @@ julia> Pkg.add("Gurobi")
 
 julia> Pkg.add("Plots")
 
-julia> using DataFrames, CSV, JuMP, Gurobi
+julia> using DataFrames, CSV, JuMP, Gurobi, Plots
 
 julia> exit()
 ```
@@ -74,7 +74,7 @@ julia> Pkg.add("Gurobi")
 
 julia> Pkg.add("Plots")
 
-julia> using DataFrames, CSV, JuMP, Gurobi
+julia> using DataFrames, CSV, JuMP, Gurobi, Plots
 
 julia> exit()
 ```
@@ -114,7 +114,7 @@ julia> Pkg.add("Gurobi")
 
 julia> Pkg.add("Plots")
 
-julia> using DataFrames, CSV, JuMP, Gurobi
+julia> using DataFrames, CSV, JuMP, Gurobi, Plots
 
 julia> exit()
 ```
