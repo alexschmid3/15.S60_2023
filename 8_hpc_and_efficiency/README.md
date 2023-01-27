@@ -126,5 +126,9 @@ julia> exit()
 
 **Submit the screenshot of your cluster terminal on Canvas.** If your Sloan Engaging or SuperCloud account hasn't been created by the time of the class, please follow the instructors for Option 1 to use Engaging OnDemand, which you should be able to access right away. 
 
+## Download VSCode (or just use your preferred editor)
+
+We'll be working on a coding project and editing some files in this session as well. In class, I'll be using the editor VSCode, which you can download [here](https://code.visualstudio.com/). If you have a preferred editor, you're welcome to follow along using that instead :)
+
 ## Questions? 
 Email Alex at aschmid@mit.edu.
