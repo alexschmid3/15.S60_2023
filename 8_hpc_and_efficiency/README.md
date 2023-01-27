@@ -16,8 +16,9 @@ Once you've logged into Engaging, run the following commands *in this order* in 
 
 1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: this may take a few minutes depending on how busy the cluster is)
 2. ```module load julia/1.7.3```
-3. ```julia``` (At this point, a Julia session will open)
-4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
+3. ```module load gurobi/8.1.1```
+4. ```julia``` (At this point, a Julia session will open)
+5. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
 
 ```julia
 julia> using Pkg
@@ -54,8 +55,9 @@ Once you've logged into Engaging, check to ensure you can run the following comm
 
 1. ```srun --pty --partition=sched_any_quicktest --cpus-per-task=1 --mem=2G bash```  (Note: this may take a few minutes depending on how busy the cluster is)
 2. ```module load julia/1.7.3```
-3. ```julia``` (At this point, a Julia session will open)
-4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
+3. ```module load gurobi/8.1.1```
+4. ```julia``` (At this point, a Julia session will open)
+5. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
 
 ```julia
 julia> using Pkg
@@ -93,8 +95,9 @@ If you're using **Windows**, there are many options for access. The simplest is 
 Once you've logged into SuperCloud, check to ensure you can run the following commands:
 
 1. ```module load julia/1.7.3```
-2. ```julia``` (At this point, a Julia session will open)
-4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may take a while): 
+2. ```module load gurobi/gurobi-811```
+3. ```julia``` (At this point, a Julia session will open)
+4. Enter the following commands to Julia to load the packages we need, then exit the Julia window (this may some time): 
 
 ```julia
 julia> using Pkg
