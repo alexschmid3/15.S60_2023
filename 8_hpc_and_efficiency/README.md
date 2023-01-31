@@ -10,7 +10,9 @@ All of these options will work for our class!
 ## Select one of the following option to use in class and complete the pre-assignment:
 
 ### Option 1: Engaging Open On Demand 
-Login to [https://engaging-ood.mit.edu](https://engaging-ood.mit.edu). Click Clusters, then Engaging Shell Access. This should open a browser window with a terminal that says either `[yourusername@eofe7 ~]$` or `[yourusername@eofe8 ~]$`. This is one of the login nodes of the Engaging cluster. You're in!
+Login to [https://engaging-ood.mit.edu](https://engaging-ood.mit.edu). Click Clusters, then Engaging Shell Access. This should open a browser window with a terminal that says either `[yourusername@eofe7 ~]$` or `[yourusername@eofe8 ~]$`. This is one of the login nodes of the Engaging cluster. You're in! 
+
+***From what some of you have noticed, while you should be able to login immediately, it may take a few hours for you to be able to run the commands below. If you get an error saying `run: error: Unable to allocate resources: Invalid account or account/partition combination specified`, try back later and see if it works. If not, shoot me an email and we can work on it!
 
 Once you've logged into Engaging, run the following commands *in this order* in the terminal (don't worry if you don't understand what we're doing here - we'll discuss during the session):
 
@@ -125,6 +127,10 @@ julia> exit()
 ## Canvas Submission
 
 **Submit the screenshot of your cluster terminal on Canvas.** If your Sloan Engaging or SuperCloud account hasn't been created by the time of the class, please follow the instructors for Option 1 to use Engaging OnDemand, which you should be able to access right away. 
+
+## Download VSCode (or just use your preferred editor)
+
+We'll be working on a coding project and editing some files in this session as well. In class, I'll be using the editor VSCode, which you can download [here](https://code.visualstudio.com/). If you have a preferred editor, you're welcome to follow along using that instead :)
 
 ## Questions? 
 Email Alex at aschmid@mit.edu.
