@@ -125,7 +125,7 @@ julia> exit()
 5. You can then close out of your terminal window.
 
    
-Note: If you want to use Gurobi on SuperCloud, you'll need to be added to the Gurobi group to access the license. Email sueprcloud@mit.edu to request access. 
+Note: If you want to use Gurobi on SuperCloud, you'll need to be added to the Gurobi group to access the license. Email supercloud@mit.edu to request access. 
 
 ## Canvas Submission
 
