@@ -83,7 +83,7 @@ julia> exit()
 5. Enter ```exit```. This should bring you back to the login node, displaying `[username@eosloan ~]$`. 
 5. Type ```exit``` again. This will end the cluster session. 
 6. **Take a screenshot of your terminal window and commands**.
-7. You can then close out of your terminal window. 
+7. You can then close out of your terminal window.
 
 ### Option 3: SuperCloud
 Request an account [here](https://supercloud.mit.edu/requesting-account). As the instructions mention, email your advisor and request that they send an email to [supercloud@mit.edu](mailto:supercloud@mit.edu?subject=Confirming%20Supercloud%20Account) confirming that you plan to use your cluster account for your research. This may take a few days.
@@ -122,7 +122,10 @@ julia> exit()
 ```
 5. Type ```exit```. This will end the cluster session. 
 4. **Take a screenshot of your terminal window and commands**.
-5. You can then close out of your terminal window. 
+5. You can then close out of your terminal window.
+
+   
+Note: If you want to use Gurobi on SuperCloud, you'll need to be added to the Gurobi group to access the license. Email sueprcloud@mit.edu to request access. 
 
 ## Canvas Submission
 
